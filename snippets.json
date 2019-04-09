@@ -1,0 +1,12 @@
+{
+  "Create a new Component": {
+    "prefix": "jmnc",
+    "body": [
+      "let {$1:NewComponent}:SFC<{$2}> = (props) => {",
+      "  return <div className={styleContainer} >{$3:BODY}</div>;",
+      "}",
+      "let styleContainer = css``;"
+    ],
+    "description": "Create a new component"
+  }
+}
