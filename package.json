@@ -2,14 +2,25 @@
   "name": "jimeng-react-snippets",
   "displayName": "JimengIO React Snippets",
   "description": "Shared snippets used inside Jimeng FE team",
-  "version": "0.1.0",
-  "publisher": "JIMENGIO",
+  "version": "0.1.1-a2",
+  "publisher": "chenyong",
   "engines": {
     "vscode": "^1.33.0"
   },
+  "icon": "jimeng-360x360.png",
   "categories": [
     "Snippets"
   ],
+  "scripts": {
+    "clean": "rm -fv *.vsix",
+    "pkg": "vsce package",
+    "code-install": "code --install-extension *.vsix",
+    "code-reinstall": "yarn clean && yarn pkg && yarn code-install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimengio/jm-snippets"
+  },
   "contributes": {
     "snippets": [
       {

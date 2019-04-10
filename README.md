@@ -4,7 +4,13 @@
 
 ### Usage
 
-Need to install from VS Code marketplace.
+Need to install from [VS Code marketplace](https://marketplace.visualstudio.com/itemdetails?itemName=chenyong.jimeng-react-snippets).
+
+Or install locally:
+
+```bash
+yarn code-reinstall
+```
 
 ### License
 

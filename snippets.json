@@ -2,11 +2,22 @@
   "Create a new Component": {
     "prefix": "jmnc",
     "body": [
-      "let {$1:NewComponent}:SFC<{$2}> = (props) => {",
-      "  return <div className={styleContainer} >{$3:BODY}</div>;",
+      "let ${1:NewComponent}:SFC<{$2}> = (props) => {",
+      "  return <div className={styleContainer} >${3:BODY}</div>;",
       "}",
-      "let styleContainer = css``;"
+      "let styleContainer = css`$4`;",
+      "$0"
     ],
     "description": "Create a new component"
+  },
+  "this.immerState": {
+    "prefix": "jmis",
+    "body": ["this.immerState(state => {", "  $2", "})", "$0"],
+    "description": "Call immerState"
+  },
+  "this.mergeState": {
+    "prefix": "jmms",
+    "body": ["this.mergeState({$1})", "$0"],
+    "description": "Call immerState"
   }
 }
