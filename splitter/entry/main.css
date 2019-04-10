@@ -29,3 +29,17 @@ body * {
 ::-webkit-resizer{
   background-color:transparent;
 }
+
+button, a {
+  transition-duration: 300ms;
+}
+
+a:active {
+  transform: scale(1.16);
+  transition-duration: 0ms;
+}
+
+button:active {
+  transform: scale(1.16);
+  transition-duration: 0ms;
+}

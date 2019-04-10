@@ -18,6 +18,10 @@ Current snippets:
 - `jmis` to insert `immerState` method statement.
 - `jmms` to insert `mergeState` method statement.
 
+### Helper
+
+* A tool for splitting code into lines of JSON http://fe.jimu.io/snippet-splitter/
+
 ### License
 
 MIT
