@@ -1,6 +1,6 @@
 {
   "Create a new Component": {
-    "prefix": "jmnc",
+    "prefix": "jnc",
     "body": [
       "let ${1:NewComponent}:SFC<{$2}> = (props) => {",
       "  return <div className={styleContainer} >${3:BODY}</div>;",
@@ -11,12 +11,12 @@
     "description": "Create a new component"
   },
   "this.immerState": {
-    "prefix": "jmis",
+    "prefix": "jis",
     "body": ["this.immerState(state => {", "  $2", "})", "$0"],
     "description": "Call immerState"
   },
   "this.mergeState": {
-    "prefix": "jmms",
+    "prefix": "jms",
     "body": ["this.mergeState({$1})", "$0"],
     "description": "Call immerState"
   }
