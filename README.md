@@ -14,9 +14,9 @@ yarn code-reinstall
 
 Current snippets:
 
-- `jmnc` to insert new component.
-- `jmis` to insert `immerState` method statement.
-- `jmms` to insert `mergeState` method statement.
+- `jnc` to insert new component.
+- `jis` to insert `immerState` method statement.
+- `jms` to insert `mergeState` method statement.
 
 ### Helper
 
