@@ -13,9 +13,9 @@
   ],
   "scripts": {
     "clean": "rm -fv *.vsix",
-    "pkg": "vsce package",
+    "pkg": "yarn clean && vsce package",
     "code-install": "code --install-extension *.vsix",
-    "code-reinstall": "yarn clean && yarn pkg && yarn code-install"
+    "code-reinstall": "yarn pkg && yarn code-install"
   },
   "repository": {
     "type": "git",
