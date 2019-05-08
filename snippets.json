@@ -2,11 +2,11 @@
   "Create a new Component": {
     "prefix": "jnc",
     "body": [
-      "import React, { SFC } from \"react\";",
+      "import React, { FC } from \"react\";",
       "import { css } from \"emotion\";",
       "",
-      "let ${1:NewComponent}: SFC<{$2}> = (props) => {",
-      "  return <div className={styleContainer}>$3</div>;",
+      "let ${1:NewComponent}: FC<{$2}> = (props) => {",
+      "  return <div className={styleContainer}>$0</div>;",
       "};",
       "",
       "export default NewComponent;",
