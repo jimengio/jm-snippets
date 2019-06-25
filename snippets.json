@@ -24,5 +24,61 @@
     "prefix": "jms",
     "body": ["this.mergeState({$1})", "$0"],
     "description": "Call immerState"
+  },
+  "Meson form": {
+    "prefix": "jmsf",
+    "body": [
+      "<MesonForm",
+      "  initialValue={{}}",
+      "  items={formItems}",
+      "  onSubmit={(form) => {",
+      "    $1",
+      "  }}",
+      "  onCancel={() => {",
+      "    $0",
+      "  }}",
+      "/>;"
+    ],
+    "description": "Meson form"
+  },
+  "Meson form modal": {
+    "prefix": "jmsfm",
+    "body": [
+      "<MesonFormModal",
+      "  title={$1}",
+      "  visible={$2formVisible}",
+      "  onClose={() => {",
+      "    $3setFormVisible(false);",
+      "  }}",
+      "  width={800}",
+      "  items={formItems}",
+      "  initialValue={{}}",
+      "  hideClose={false}",
+      "  onSubmit={(form) => {",
+      "    $0setFormVisible(false);",
+      "  }}",
+      "/>;"
+    ],
+    "description": "Meson form modal"
+  },
+  "Meson form drawer": {
+    "prefix": "jmsfd",
+    "body": [
+      "<MesonFormDrawer",
+      "  title={$1}",
+      "  visible={$2formVisible}",
+      "  onClose={() => {",
+      "    $3setFormVisible(false);",
+      "  }}",
+      "  width={800}",
+      "  items={formItems}",
+      "  initialValue={{}}",
+      "  hideClose={false}",
+      "  onSubmit={(form) => {",
+      "    $0setFormVisible(false);",
+      "  }}",
+      "/>;"
+    ],
+    "description": "Meson form drawer"
   }
 }
