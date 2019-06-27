@@ -80,5 +80,33 @@
       "/>;"
     ],
     "description": "Meson form drawer"
+  },
+  "API Hooks": {
+    "prefix": "jhk",
+    "body": [
+      "/** 获取 data 的数据 */",
+      "export let useData$1 = (options: IListDataOptions): [IData$2[], boolean, () => void] => {",
+      "  let [data, setData] = useState([] as IData[]);",
+      "  let [isLoading, setLoading] = useState(false);",
+      "",
+      "  let loadData = async () => {",
+      "    setLoading(true);",
+      "",
+      "    try {",
+      "      let result = await listData$3(options);",
+      "      setData(result.items);",
+      "    } finally {",
+      "      setLoading(false);",
+      "    }",
+      "  };",
+      "",
+      "  useEffect(() => {",
+      "    loadData();",
+      "  }, [options.plantId $0]);",
+      "",
+      "  return [data, isLoading, loadData];",
+      "};"
+    ],
+    "description": "Hooks for fetching API"
   }
 }

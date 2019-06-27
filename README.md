@@ -22,6 +22,7 @@ Current snippets:
 - `jmsf` to insert `<MesonForm/>`.
 - `jmsfm` to insert `<MesonFormModal/>`.
 - `jmsfd` to insert `<MesonFormDrawer/>`.
+- `jhk` to insert a data fetching Hooks API.
 
 ### Helper
 
