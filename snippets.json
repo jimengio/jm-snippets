@@ -14,7 +14,7 @@
       "",
       "export default NewComponent;",
       "",
-      "let styleContainer = null`;"
+      "let styleContainer = null;"
     ],
     "description": "Create a new component"
   },
