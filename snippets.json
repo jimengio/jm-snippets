@@ -6,12 +6,15 @@
       "import { css } from \"emotion\";",
       "",
       "let ${1:NewComponent}: FC<{$2}> = (props) => {",
+      "  /** Methods  */",
+      "  /** Effects  */",
+      "  /** Renderers  */",
       "  return <div className={styleContainer}>$0</div>;",
       "};",
       "",
       "export default NewComponent;",
       "",
-      "let styleContainer = css``;"
+      "let styleContainer = null`;"
     ],
     "description": "Create a new component"
   },
