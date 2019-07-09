@@ -20,12 +20,20 @@
   },
   "this.immerState": {
     "prefix": "jis",
-    "body": ["this.immerState(state => {", "  $2", "})", "$0"],
+    "body": [
+      "this.immerState(state => {",
+      "  $2",
+      "})",
+      "$0"
+    ],
     "description": "Call immerState"
   },
   "this.mergeState": {
     "prefix": "jms",
-    "body": ["this.mergeState({$1})", "$0"],
+    "body": [
+      "this.mergeState({$1})",
+      "$0"
+    ],
     "description": "Call immerState"
   },
   "Meson form": {
@@ -111,5 +119,15 @@
       "};"
     ],
     "description": "Hooks for fetching API"
+  },
+  "CSS style": {
+    "prefix": "jcs",
+    "body": [
+      "",
+      "let ${1:style} = css`",
+      "  $0"
+      "`;"
+    ],
+    "description": "Emotion style"
   }
 }
