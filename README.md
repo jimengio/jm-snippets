@@ -24,6 +24,16 @@ Current snippets:
 - `jmsfd` to insert `<MesonFormDrawer/>`.
 - `jhk` to insert a data fetching Hooks API.
 
+### Development
+
+Publish to marketplace:
+
+```bash
+yarn market
+```
+
+Notice permission system is complicated, need to setup a lot thing related to JIMENG org.
+
 ### Helper
 
 - A tool for splitting code into lines of JSON http://fe.jimu.io/snippet-splitter/
