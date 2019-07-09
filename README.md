@@ -4,15 +4,15 @@
 
 ### Usage
 
-Need to install from [VS Code marketplace](https://marketplace.visualstudio.com/itemdetails?itemName=chenyong.jimeng-react-snippets).
-
-Or install locally:
+Install locally(need to uninstall first):
 
 ```bash
 yarn pkg
 ```
 
 ![](https://segmentfault.com/img/remote/1460000018819754)
+
+Also available on [VS Code marketplace](https://marketplace.visualstudio.com/itemdetails?itemName=chenyong.jimeng-react-snippets).
 
 Current snippets:
 

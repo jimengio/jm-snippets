@@ -2,7 +2,7 @@
   "name": "jimeng-react-snippets",
   "displayName": "JimengIO React Snippets",
   "description": "Shared snippets used inside Jimeng FE team",
-  "version": "0.1.4-a5",
+  "version": "0.1.4",
   "publisher": "chenyong",
   "engines": {
     "vscode": "^1.33.0"
