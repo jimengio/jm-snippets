@@ -20,20 +20,12 @@
   },
   "this.immerState": {
     "prefix": "jis",
-    "body": [
-      "this.immerState(state => {",
-      "  $2",
-      "})",
-      "$0"
-    ],
+    "body": ["this.immerState(state => {", "  $2", "})", "$0"],
     "description": "Call immerState"
   },
   "this.mergeState": {
     "prefix": "jms",
-    "body": [
-      "this.mergeState({$1})",
-      "$0"
-    ],
+    "body": ["this.mergeState({$1})", "$0"],
     "description": "Call immerState"
   },
   "Meson form": {
@@ -122,12 +114,15 @@
   },
   "CSS style": {
     "prefix": "jcs",
-    "body": [
-      "",
-      "let ${1:style} = css`",
-      "  $0"
-      "`;"
-    ],
+    "body": ["let ${1:style} = css`", "  $0", "`;"],
     "description": "Emotion style"
+  },
+  "useState": {
+    "prefix": "jst",
+    "body": ["let [${1:x}, ${2:setX}] = useState(${0:null});"]
+  },
+  "useEffect": {
+    "prefix": "jef",
+    "body": ["useEffect(() => {", "  $0", "}, [$1])"]
   }
 }
