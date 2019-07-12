@@ -24,6 +24,8 @@ Current snippets:
 - `jmsfd` to insert `<MesonFormDrawer/>`.
 - `jhk` to insert a data fetching Hooks API.
 - `jcs` to insert a style definition.
+- `jst` to insert `useState`.
+- `jef` to insert `useEffect`
 
 ### Development
 
