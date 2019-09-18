@@ -5,16 +5,15 @@
       "import React, { FC } from \"react\";",
       "import { css } from \"emotion\";",
       "",
-      "let ${1:NewComponent}: FC<{$2}> = (props) => {",
+      "let ${1:NewComponent}: FC<{$2}> = React.memo((props) => {",
+      "  ",
       "  /** Methods */",
       "  /** Effects */",
       "  /** Renderers */",
-      "  return <div className={styleContainer}>$0</div>;",
-      "};",
+      "  return <div>$0</div>;",
+      "});",
       "",
-      "export default NewComponent;",
-      "",
-      "let styleContainer = null;"
+      "export default NewComponent;"
     ],
     "description": "Create a new component"
   },
