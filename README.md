@@ -7,12 +7,13 @@
 Install locally(need to uninstall first):
 
 ```bash
+yarn global add vsce
 yarn pkg
 ```
 
 ![](https://segmentfault.com/img/remote/1460000018819754)
 
-Also available on [VS Code marketplace](https://marketplace.visualstudio.com/itemdetails?itemName=chenyong.jimeng-react-snippets).
+Also available on [VS Code marketplace](https://marketplace.visualstudio.com/itemdetails?itemName=chenyong.jimeng-react-snippets)(Not suggested, could be outdated).
 
 Current snippets:
 
