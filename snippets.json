@@ -118,10 +118,18 @@
   },
   "useState": {
     "prefix": "jst",
-    "body": ["let [${1:x}, ${2:setX}] = useState(${0:null});"]
+    "body": ["let [${1:x}, set${2:X}] = useState(${0:null});"]
   },
   "useEffect": {
     "prefix": "jef",
     "body": ["useEffect(() => {", "  $0", "}, [$1])"]
+  },
+  "useRexContext": {
+    "prefix": "jrx",
+    "body": [
+      "let ${1:data} = useRexContext$2((store: IRexGlobalStore$3) => {",
+      "  return store$0",
+      "})"
+    ]
   }
 }
