@@ -7,6 +7,7 @@
       "",
       "let ${1:NewComponent}: FC<{$2}> = React.memo((props) => {",
       "  ",
+      "  /** Plugins */",
       "  /** Methods */",
       "  /** Effects */",
       "  /** Renderers */",
@@ -130,6 +131,27 @@
       "let ${1:data} = useRexContext$2((store: IRexGlobalStore$3) => {",
       "  return store$0",
       "})"
+    ]
+  },
+  "useEditData": {
+    "prefix": "jue",
+    "body": [
+      "import React, { useState, ReactNode } from \"react\";",
+      "",
+      "export let useEdit${1:Data} = (props: {",
+      "  onChange: ($2) => Promise<void>;",
+      "}) => {",
+      "  // Model",
+      "  let [editing, setEditing] = useState(false);",
+      "",
+      "  // View",
+      "  let ui = <div>${0:editing}</div>",
+      "",
+      "  // Controller",
+      "  let onEdit = () => {",
+      "  }",
+      "  return [ui, onEdit] as [ReactNode, typeof onEdit]",
+      "}"
     ]
   }
 }

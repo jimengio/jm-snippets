@@ -27,6 +27,7 @@ Current snippets:
 - `jcs` to insert a style definition.
 - `jst` to insert `useState`.
 - `jef` to insert `useEffect`
+- `jue` to insert `useEditData`
 
 ### Development
 
